@@ -14,7 +14,6 @@ Este guia destina-se a facilitar o desenvolvimento e a implantação do chatbot 
    - [Ambiente Virtual](#ambiente-virtual)
    - [Clonagem e Configuração do Repositório](#clonagem-e-configuração-do-repositório)
 4. [Treinamento e Testes do Chatbot](#treinamento-e-testes-do-chatbot)
-5. [Troubleshooting](#troubleshooting)
 
 ## Requisitos do Sistema
 
