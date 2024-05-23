@@ -35,29 +35,8 @@ Este guia destina-se a facilitar o desenvolvimento e a implantação do chatbot 
 3. Verifique a instalação no PowerShell (ou o terminal de sua preferência):
    ```bash
    python --version
-
    ```
-
-
-## Requisitos do Sistema
-
-- **Sistema Operacional**: Windows 10 Pro ou superior, Linux, macOS
-- **Processador**: Intel Core i3 ou superior (GPCA - Intel Core i3-10100T)
-- **Memória RAM**: Mínimo de 4 GB, recomendado 8 GB ou mais (GPCA - 16 GB)
-- **Espaço em Disco**: Pelo menos 5 GB de espaço livre
-- **Python**: Versão 3.6 até 3.10
-- **Outros**: Acesso à internet, Git
-
-## Instalação de Dependências
-
-### Python
-1. Baixe e instale a versão mais recente compatível com o Windows:
-   [Python Downloads](https://www.python.org/downloads/)
-2. Selecione "Add Python to PATH" durante a instalação.
-3. Verifique a instalação no PowerShell (ou o terminal de sua preferência):
-   ```bash
-   python --version
-   ```
+   - Saída esperada: Python 3.x.x
 ### Instalação do Visual Studio Code
 - Baixe e instale o Visual Studio Code: [VS Code Downloads](https://code.visualstudio.com/download)
 - Abra o VS Code após a instalação.
@@ -82,11 +61,18 @@ mkdir projeto_123_ajuda
 cd projeto_123_ajuda
  ```
 - Crie e ative o ambiente virtual:
-```bash
-py -3.10 -m venv venv
-venv\Scripts\activate   # No Windows
-source venv/bin/activate  # No Linux/MacOS
-```
+   
+   - Windows
+      ```bash
+      py -3.10 -m venv venv  
+      venv\Scripts\activate  
+      ```
+   - Linux/MacOS
+      ```bash
+      python3 -m venv venv 
+      source venv/bin/activate 
+      ```
+
 - Atualize o pip e instale o Rasa:
 ```bash
 python -m pip install --upgrade pip
@@ -99,11 +85,16 @@ git clone https://github.com/infocbra/123_ajuda.git
 cd 123_ajuda
 ```
 - Crie e ative o ambiente virtual:
-```bash
-py -3.10 -m venv venv
-venv\Scripts\activate   # No Windows
-source venv/bin/activate  # No Linux/MacOS
-```
+   - Windows
+      ```bash
+      py -3.10 -m venv venv  
+      venv\Scripts\activate  
+      ```
+   - Linux/MacOS
+      ```bash
+      python3 -m venv venv 
+      source venv/bin/activate 
+      ```
 - Instale as dependências:
 ```bash
 pip install -r requirements.txt
