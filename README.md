@@ -6,7 +6,6 @@ Este guia destina-se a facilitar o desenvolvimento e a implantação do chatbot 
 
 ## Links Úteis
 - [Installing Rasa Open Source](https://rasa.com/docs/rasa/installation/)
-- [Repositório do Projeto](https://github.com/infocbra/123-ajuda-api)
 
 ## Requisitos do Sistema
 
@@ -26,16 +25,22 @@ Este guia destina-se a facilitar o desenvolvimento e a implantação do chatbot 
 3. Verifique a instalação no PowerShell (ou o terminal de sua preferência):
    ```bash
    python --version
-
-### Visual Studio Code
+   ```
+### Instalação do Visual Studio Code
 - Baixe e instale o Visual Studio Code: [VS Code Downloads](https://code.visualstudio.com/download)
+- Abra o VS Code após a instalação.
 - Instale as seguintes extensões:
-  - Python
+  - Python (para suporte de linguagem)
   - GitLens
   - Docker (se usar contêineres)
   - Git
+  - Rasa (se disponível)
 - Baixe e instale o Git: [Git Downloads](https://git-scm.com/downloads)
 - Durante a instalação, configure o VS Code como editor padrão.
+- Configuração do Terminal no Visual Studio Code:
+  - Abra o terminal integrado no VS Code.
+  - Altere para o shell desejado (por exemplo, Git Bash, se estiver no Windows).
+
 
 ## Configuração do Ambiente Rasa
 ### Ambiente Virtual
