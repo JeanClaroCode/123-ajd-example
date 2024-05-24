@@ -19,7 +19,7 @@ Este guia destina-se a facilitar o desenvolvimento e a implantação do chatbot 
 
 - **Sistema Operacional**: Windows 10 Pro ou superior, Linux, macOS
 - **Processador**: Intel Core i3 ou superior (recomendado: Intel Core i3-10100T)
-- **Memória RAM**: Mínimo de 4 GB, recomendado 8 GB ou mais (recomendado: 16 GB)
+- **Memória RAM**: Mínimo de 4 GB, recomendado 8 GB ou mais (16 GB)
 - **Espaço em Disco**: Pelo menos 5 GB de espaço livre
 - **Python**: Versão 3.6 até 3.10
 - **Outros**: Acesso à internet, Git
